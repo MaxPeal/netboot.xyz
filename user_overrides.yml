@@ -8,6 +8,11 @@ generate_checksums: true
 # For not Install required packages, set install_packages to false, default is true
 #install_packages: false
 
+# if you working as user not as root on a system to only build netbootxyz, override also this dirs:
+#cert_dir: ./OUT/etc/netbootxyz/certs
+#netbootxyz_conf_dir: ./OUT/etc/netbootxyz
+#netbootxyz_root: ./OUT/var/www/html
+
 # set desired site name
 #site_name: mysitename.com
 
